@@ -9,15 +9,6 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace SourceGen;
 
-static class A
-{
-	public static string[] Tags = new []
-	{
-		"",
-		""
-	};
-}
-
 [Generator(LanguageNames.CSharp)]
 public class GitInformationGenerator : IIncrementalGenerator
 {
